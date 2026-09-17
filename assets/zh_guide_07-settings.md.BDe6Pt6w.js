@@ -1,0 +1,30 @@
+import{_ as s,o as n,c as t,a0 as e}from"./chunks/framework.akKRIpjQ.js";const b=JSON.parse('{"title":"07 · 设置","description":"","frontmatter":{},"headers":[],"relativePath":"zh/guide/07-settings.md","filePath":"zh/guide/07-settings.md"}'),p={name:"zh/guide/07-settings.md"};function l(d,a,i,o,r,c){return n(),t("div",null,[...a[0]||(a[0]=[e(`<h1 id="_07-·-设置" tabindex="-1">07 · 设置 <a class="header-anchor" href="#_07-·-设置" aria-label="Permalink to &quot;07 · 设置&quot;">​</a></h1><blockquote><p>「我的」Tab 拆解——外观 / 数据 / 通知。</p></blockquote><h2 id="「我的」tab-全栏" tabindex="-1">「我的」Tab 全栏 <a class="header-anchor" href="#「我的」tab-全栏" aria-label="Permalink to &quot;「我的」Tab 全栏&quot;">​</a></h2><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>┌───────────────────────────────────┐</span></span>
+<span class="line"><span>│ 我的                              │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 外观                              │</span></span>
+<span class="line"><span>│  · 主题（跟随 / 浅 / 深 / OLED 黑） │</span></span>
+<span class="line"><span>│  · 单位（mm/in, g/oz, lbs/kg）      │</span></span>
+<span class="line"><span>│  · 字体大小（标准 / 大）          │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 数据                              │</span></span>
+<span class="line"><span>│  · 导出（JSON / CSV）             │</span></span>
+<span class="line"><span>│  · 导入                            │</span></span>
+<span class="line"><span>│  · 删除全部数据                    │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 提醒                              │</span></span>
+<span class="line"><span>│  · 换线提醒开关                    │</span></span>
+<span class="line"><span>│  · 提醒时间窗（09:00 / 12:00 等） │</span></span>
+<span class="line"><span>│  · 启用原图存档（V1.1）         │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 隐私 &amp; 许可                       │</span></span>
+<span class="line"><span>│  · 隐私清单                       │</span></span>
+<span class="line"><span>│  · 开源许可（MediaPipe, Fonts）    │</span></span>
+<span class="line"><span>│  · 第三方组件                     │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 反馈                              │</span></span>
+<span class="line"><span>│  · 发送反馈                       │</span></span>
+<span class="line"><span>├───────────────────────────────────┤</span></span>
+<span class="line"><span>│ 关于                              │</span></span>
+<span class="line"><span>│  · 版本号（V1.0.x build xxx）    │</span></span>
+<span class="line"><span>│  · 应用商店链接                    │</span></span>
+<span class="line"><span>└───────────────────────────────────┘</span></span></code></pre></div><h2 id="主题与显示" tabindex="-1">主题与显示 <a class="header-anchor" href="#主题与显示" aria-label="Permalink to &quot;主题与显示&quot;">​</a></h2><table tabindex="0"><thead><tr><th>项</th><th>选项</th><th>默认</th></tr></thead><tbody><tr><td>主题</td><td>跟随系统 / 浅色 / 深色 / OLED 纯黑（V1.1+）</td><td>跟随系统</td></tr><tr><td>单位</td><td>公制 / 英制 / 双单位并列</td><td>公制</td></tr><tr><td>字体大小</td><td>标准 / 大 / 超大</td><td>标准</td></tr></tbody></table><blockquote><p>OLED 纯黑：把背景换成 <code>#000000</code>，省电、深色模式更纯净。</p></blockquote><h2 id="数据管理" tabindex="-1">数据管理 <a class="header-anchor" href="#数据管理" aria-label="Permalink to &quot;数据管理&quot;">​</a></h2><h3 id="导出-json" tabindex="-1">导出 JSON <a class="header-anchor" href="#导出-json" aria-label="Permalink to &quot;导出 JSON&quot;">​</a></h3><p><code>我的 → 数据管理 → 导出</code> → 选要导出的范围（球拍档案 / 穿线日志 / 握把测算历史 / 全部）→ 生成 <code>.json</code> 文件 → 系统分享面板。</p><blockquote><p>该文件<strong>不加密</strong>，里面就是你的私人数据。请用邮件发给自己、AirDrop 给自己的电脑 / 保存到加密云盘。<strong>别发朋友圈</strong>。</p></blockquote><h3 id="导入-json" tabindex="-1">导入 JSON <a class="header-anchor" href="#导入-json" aria-label="Permalink to &quot;导入 JSON&quot;">​</a></h3><p><code>我的 → 数据管理 → 导入</code> → 选一份 JSON。重复的条目（按 ID 匹配）会被跳过，不会覆盖你现有数据。</p><h3 id="删除全部数据" tabindex="-1">删除全部数据 <a class="header-anchor" href="#删除全部数据" aria-label="Permalink to &quot;删除全部数据&quot;">​</a></h3><p><code>我的 → 数据管理 → 删除全部数据</code>。需要二次确认。</p><blockquote><p>删完不可恢复（虽然前面你要么已经导出，要么就是不要这个数据了）。</p></blockquote><h2 id="通知" tabindex="-1">通知 <a class="header-anchor" href="#通知" aria-label="Permalink to &quot;通知&quot;">​</a></h2><table tabindex="0"><thead><tr><th>项</th><th>默认</th><th>说明</th></tr></thead><tbody><tr><td>换线提醒</td><td>开启</td><td>需要系统层允许通知</td></tr><tr><td>提醒时间窗</td><td>09:00</td><td>你可以选 09:00 / 12:00 / 20:00</td></tr><tr><td>提前几天</td><td>提前 3 天</td><td>到期前 3 天、1 天、零天 各推一次</td></tr></tbody></table><p>如果通知被关掉，进系统 <code>设置 → 应用 → AceCrush Craft → 通知</code> 重新开启后回 App 重置。</p><h2 id="相关" tabindex="-1">相关 <a class="header-anchor" href="#相关" aria-label="Permalink to &quot;相关&quot;">​</a></h2><ul><li><a href="./06-cloud-sync.html">06 · 云同步</a></li><li><a href="./08-privacy.html">08 · 隐私</a></li><li><a href="./09-feedback.html">09 · 反馈</a></li><li><a href="./10-faq.html">10 · 常见问题</a></li></ul>`,21)])])}const u=s(p,[["render",l]]);export{b as __pageData,u as default};

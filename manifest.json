@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "latest": {
+    "versionCode": 7,
+    "versionName": "1.0.0",
+    "minVersionCode": 5,
+    "changelog": "add my devices function",
+    "android": {
+      "apkUrl": "https://github.com/acecrush-dev/acecrush-craft-app/releases/download/latest/acecrush-craft.apk",
+      "sha256": ""
+    },
+    "ios": {
+      "testflightUrl": ""
+    }
+  }
+}
